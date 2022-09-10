@@ -3,3 +3,13 @@ main {
   vertical-align: center;
   line-height: 100vh
 }
+body {
+  font-family: Arial;
+}
+.card-collection {
+  display: grid;
+  grid-template-column: ifr ifr ifr;
+}
+.standout {
+  box-shadow: rgba(0, 0, 4, 16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
