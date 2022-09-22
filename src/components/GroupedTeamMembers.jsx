@@ -1,4 +1,11 @@
-const GroupedTeamMembers = () => {
+const GroupedTeamMembers = ({employees, selectedTeam, setTeam}) => {
+
+  const [groupedEmployees, setGroupedData] = useState(GroupTeamMembers());
+
+  function GroupTeamMembers() {
+    
+  };
+
   return (
       <header className="container">
           <div className="row justify-content-center mt-3 mb-4">
